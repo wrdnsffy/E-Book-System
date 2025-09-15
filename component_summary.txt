@@ -1,0 +1,83 @@
+User Authentication:
+
+Login and registration for customers
+Admin login using the staff table
+Session management and access control
+
+
+Books Management:
+
+Listing books with sorting and pagination
+Adding new books with cover image upload
+Editing book details
+Viewing book details
+Deleting books (with consideration for existing orders)
+
+
+Authors Management:
+
+Listing authors
+Adding new authors
+Editing author details
+Deleting authors (with consideration for associated books)
+
+
+Publishers Management:
+
+Listing publishers
+Adding new publishers
+Editing publisher details
+Deleting publishers (with consideration for associated books)
+
+
+Order System:
+
+Shopping cart functionality
+Checkout process
+Order placement and storage in the database
+Viewing order history for customers
+
+
+Admin Panel:
+
+Dashboard with overview statistics
+Customer management (viewing and editing customer details)
+Order management (viewing and updating order statuses)
+Generating order reports (total sales, top-selling books, top customers)
+
+
+Database Design:
+
+Tables for books, authors, publishers, customers, orders, order items, and staff
+Relationships between tables (foreign key constraints)
+
+
+Security Features:
+
+Input sanitization and validation
+CSRF protection for forms
+Password hashing
+Role-based access control
+
+
+User Interface:
+
+Responsive design using Bootstrap 5
+Navigation menus for both customer and admin interfaces
+Forms for data input and editing
+Tables for data display with sorting capabilities
+
+
+Utility Functions:
+
+Database connection and query functions
+User authentication and authorization functions
+Input sanitization and validation functions
+CSRF token generation and verification
+
+
+File Structure:
+
+Separate directories for different components (books, authors, publishers, auth, admin)
+Includes directory for shared files (init.php, functions.php, db.php)
+CSS and JavaScript files for styling and client-side functionality
